@@ -1,0 +1,530 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@100;200;300;4JUdGzvrMFDWrUUwY3toJATSeNwjn54LkCnKBPRzDuhzi5vSepHfUckJNxRL2gjkNrSqtCoRUrEDAgRwsQvVCjZbRyFTLRNyDmT1a1boZV700;900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style-type: none !important;
+    text-decoration: none !important;
+}
+
+.container-main {
+    max-width: 1320px;
+    padding-right: 12px;
+    padding-left: 12px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.bg-logo {
+    background: rgba(255, 255, 255, 1);
+}
+
+.bg-nav {
+    border: 1px solid #DEE2E6;
+    background: #FFF;
+    box-shadow: 0px 2px 13px 0px rgba(0, 0, 0, 0.10);
+}
+
+.main-shoes {
+    width: 100%;
+}
+
+p {
+    margin-bottom: 0px !important;
+}
+
+ul {
+    margin-bottom: 0px !important;
+    padding-left: 0px !important;
+}
+
+.text-review {
+    line-height: 134.5%;
+}
+
+#myform {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 21px;
+    border: 1px solid #E8E8E8;
+    width: 100px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.qty {
+    width: 20px;
+    height: 20px;
+    border: none;
+    font-family: 'Josefin Sans', ;
+}
+
+input.qtyplus {
+    width: 20px;
+    height: 20px;
+    background: none;
+    border: none;
+    margin-bottom: 5px;
+    font-family: 'Josefin Sans', ;
+    font-weight: 400;
+}
+
+input.qtyminus {
+    width: 25px;
+    height: 25px;
+    background: none;
+    border: none;
+    font-family: 'Josefin Sans', ;
+    font-weight: 400;
+}
+
+select {
+    display: block;
+    appearance: none;
+    background-image: url("data:image/svg+xml;charset=UTF-8,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='currentColor' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'%3e%3cpolyline points='6 9 12 15 18 9'%3e%3c/polyline%3e%3c/svg%3e");
+    background-repeat: no-repeat;
+    background-position: right 10px center;
+    background-size: 1em;
+    padding-right: 45px;
+    outline: none;
+    border-radius: 21px;
+    border: 1px solid #E8E8E8;
+    padding-left: 20px;
+}
+
+.btn-cart {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 33px;
+    padding-right: 32px;
+    border-radius: 21px;
+}
+
+.quantity span {
+    margin-left: 15px;
+}
+
+.line {
+    height: 1px;
+    width: 80%;
+    /* 540px */
+    background-color: black;
+    opacity: 0.5;
+}
+
+.other-shoes {
+    gap: 25px;
+    padding-top: 30px;
+}
+
+.other-shoes img {
+    border-radius: 5px;
+    width: 20%;
+}
+
+img svg circle {
+    fill: red;
+}
+
+#myBtn {
+    display: none;
+    position: fixed;
+    bottom: 20px;
+    right: 30px;
+    z-index: 99;
+    border: none;
+    outline: none;
+    background-color: red;
+    color: white;
+    cursor: pointer;
+    padding: 15px;
+    border-radius: 10px;
+    font-size: 18px;
+}
+
+#myBtn:hover {
+    background-color: #555;
+}
+
+.card-main {
+    max-width: 312px;
+    border-radius: 10px;
+    background: #FFF;
+    box-shadow: 23px 44px 47px 0px rgba(0, 0, 0, 0.20);
+    padding-right: 16px;
+    padding-left: 19px;
+}
+
+.sm-box {
+    border-radius: 10px 10px 0px 0px;
+    border: 1px solid rgba(0, 0, 0, 0.08);
+    background: #FFF;
+}
+
+.btn-bestp {
+    padding-top: 3px;
+    padding-bottom: 4px;
+    padding-left: 11px;
+    padding-right: 10px;
+    border: none;
+    border-radius: 7px;
+}
+
+.size {
+    padding-top: 8px;
+    padding-bottom: 8px;
+    padding-left: 32px;
+    padding-right: 32px;
+    border: 1px solid rgba(0, 0, 0, 0.12);
+    border-radius: 40px;
+}
+
+.nav-tabs .nav-item.show .nav-link,
+.nav-tabs .nav-link.active {
+    color: red !important;
+    border-bottom: 3px solid red !important;
+}
+
+.nav-tabs .nav-item.show .nav-link,
+.nav-tabs .nav-link.active {
+    background-color: transparent !important;
+    border-top: none !important;
+    border-left: none !important;
+    border-right: none !important;
+}
+
+.nav-link {
+    color: black !important;
+    font-family: 'Poppins', sans-serif !important;
+    font-weight: 400 !important;
+    line-height: 125% !important;
+}
+
+.nav-tabs {
+    border-bottom: none !important;
+}
+
+.tab-pane {
+    color: #000 !important;
+    font-family: 'Poppins', sans-serif !important;
+    font-style: normal;
+    font-weight: 400 !important;
+    line-height: 185.5% !important;
+    opacity: 0.7 !important;
+}
+
+.product-card {
+    border-radius: 17px;
+    border: 1px solid rgba(0, 0, 0, 0.12);
+    background: #FFF;
+}
+
+.shopping-cart {
+    position: absolute;
+    top: 20%;
+    right: 3%;
+}
+
+.orange-line {
+    position: absolute;
+    top: 0%;
+}
+
+.text-off {
+    position: absolute;
+    top: 5%;
+    left: 2%;
+    color: white;
+    transform: rotate(-44deg);
+    font-size: 14px;
+    font-family: 'Poppins', ;
+    font-weight: 300;
+    line-height: 242%;
+}
+
+.box-new {
+    border-radius: 0px 14px 0px 0px;
+    background: #555;
+    display: inline-block;
+    padding: 2px 19px 3px 18px;
+    position: absolute;
+    top: 0%;
+    right: 0%;
+
+}
+
+.no-btn {
+    border-radius: 9.219px;
+    box-shadow: 0px 6px 16px 0px rgba(0, 0, 0, 0.12);
+    background: #FFF;
+    padding: 15px 25px 14px 25px;
+    border: none;
+    color: black;
+}
+
+.no-btn:hover {
+    background: #F40;
+    color: white;
+}
+
+.btn-next {
+    border-radius: 9px;
+    border: 1px solid #9C9C9C;
+    background: rgba(196, 196, 196, 0.00);
+    color: #555;
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    opacity: 0.77;
+    padding: 12px 17px 11px 18px;
+    box-shadow: 0px 6px 16px 0px rgba(0, 0, 0, 0.12);
+}
+
+.btn-next:hover {
+    background: #F40;
+    color: white;
+}
+
+.footer-para {
+    color: #FFF;
+    font-family: 'Poppins', sans-serif;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 185.5%;
+    opacity: 0.6;
+    padding-right: 20px;
+}
+
+.footer-icons {
+    gap: 20px;
+}
+
+.col-2 ul li a {
+    color: #FFF;
+    font-family: 'Poppins', sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+    opacity: 0.7;
+}
+
+.last-section {
+    background: #171717;
+}
+
+.bold:hover {
+    font-weight: 700;
+}
+
+.hover:hover {
+    background: #F40;
+}
+
+.transform {
+    transition: all 500ms;
+}
+
+.transform:hover {
+    transform: scale(1.2);
+}
+
+.cursor {
+    cursor: pointer;
+}
+
+.size-hover:hover {
+    background: #D7D7D7;
+
+}
+
+.Nav-Bar {
+    position: fixed;
+    top: 0%;
+    left: -100%;
+    flex-direction: column;
+    height: 100vh;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    background: white;
+    z-index: 1;
+    transition: all 500ms;
+}
+
+.slider-bttn {
+    color: rgba(0, 0, 0, 0.70);
+    border: none;
+    width: 50px;
+    height: 50px;
+    border-radius: 9.219px;
+    background: #FFF;
+    box-shadow: 3px 5px 22px 0px rgba(0, 0, 0, 0.08);
+    display: flex;
+    justify-content: center;
+}
+
+.menu-button {
+    height: 25px;
+    width: 25px;
+    border: none;
+    background: none;
+
+}
+
+.animate-circle {
+    animation-name: spin;
+    animation-duration: 5000ms;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    width: 10%;
+}
+
+@keyframes spin {
+    from {
+        transform: rotate(0deg);
+    }
+
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+.Btn-top {
+    transform: rotate(-90deg);
+}
+
+.menu-button span {
+    border: 2px solid black;
+    display: flex;
+    margin-bottom: 10px;
+    border-radius: 2px;
+}
+
+.menu-line1 {
+    transform: rotate(45deg);
+    position: relative;
+    top: 12px;
+    transition: all 300ms;
+}
+
+.menu-line2 {
+    position: relative;
+    top: -1px;
+    transform: rotate(-45deg);
+    transition: all 300ms;
+}
+
+.menu-line3 {
+    opacity: 0;
+}
+
+.slick-dots {
+    display: none !important;
+}
+
+.overflow_hidden {
+    overflow: hidden;
+}
+
+.footer-links {
+    color: #FFF;
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+    opacity: 0.7;
+    position: relative;
+}
+
+.footer-links::after {
+    content: '';
+    position: absolute;
+    bottom: -4px;
+    left: 0;
+    width: 0%;
+    height: 2px;
+    background: #F40;
+    opacity: 100%;
+    transition: all 700ms ease-in;
+}
+
+.footer-links:hover::after {
+    width: 100%;
+
+}
+
+.left_0 {
+    left: 0%;
+}
+
+.text-justify {
+    text-align: justify;
+}
+
+.hero-para {
+    padding-right: 90px;
+}
+
+.tab-pane {
+    font-size: 12px !important;
+}
+
+.nav-link {
+    font-size: 12px !important;
+    padding: 11px !important;
+}
+
+@media (min-width:576px) {
+    .other-shoes img {
+        width: 22%;
+    }
+
+    .tab-pane {
+        font-size: 16px !important;
+    }
+
+    .nav-link {
+        font-size: 14px !important;
+        padding: 20px !important;
+    }
+
+    .footer-para {
+        font-size: 16px;
+    }
+
+    .slider-bttn {
+        height: 59px;
+        width: 59px;
+    }
+
+    .shopping-cart {
+        width: 22%;
+        top: 24%;
+    }
+
+    .text-off {
+        top: 8%;
+    }
+}
+
+@media (min-width:768px) {
+    .text-off {
+        top: 6%;
+    }
+}
+
+@media (min-width:992px) {
+    .Nav-Bar {
+        position: static;
+        height: 100%;
+        width: auto;
+        flex-direction: row;
+    }
+
+}

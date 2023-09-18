@@ -44,14 +44,6 @@
 .orange-color{
     color: var(--orange-color);
 }
-.font-roboto {
-    font-family: 'Roboto', sans-serif;
-}
-
-.font-poppins {
-    font-family: 'Poppins', sans-serif;
-}
-
 .fw-300 {
     font-weight: var(--fw-300);
 }
@@ -168,8 +160,23 @@
          --fs-14: 14px;
          --fs-15: 15px;
          --fs-16: 16px;
+         --fs-18: 14px;
+         --fs-20: 14px;
+         --fs-25: 25px;
+         --fs-30: 22px;
+         --fs-32: 32px;
+         --fs-44: 44px;
+         --fs-48: 48px;
+    }
+}
+@media (min-width:1200px){
+    :root{
+         --fs-10: 10px;
+         --fs-14: 14px;
+         --fs-15: 15px;
+         --fs-16: 16px;
          --fs-18: 18px;
-         --fs-20: 20px;
+         --fs-20: 14px;
          --fs-25: 25px;
          --fs-30: 30px;
          --fs-32: 32px;
